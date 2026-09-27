@@ -21,3 +21,4 @@ export const test = base.extend<MyFixtures>({
 });
 
 export { expect };
+// Index will be used in all the test files and will be imported from this file. This is done to avoid importing the same modules in all the test files.
