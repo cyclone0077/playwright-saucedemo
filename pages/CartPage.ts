@@ -18,5 +18,4 @@ export class CartPage {
   async removeItem(productId: string) {
     await this.page.getByTestId(`remove-${productId}`).click();
   }
-  
 }
