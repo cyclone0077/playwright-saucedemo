@@ -44,6 +44,6 @@ test('mock intercepts browser request', async ({ page }) => {
     const res = await fetch('https://dummyjson.com/products');
     return res.json();
   });
-  console.log(result.products[0].title);
+  //console.log(result.products[0].title);
   expect(result.products[0].title).toBe('Mocked Product');
 });
